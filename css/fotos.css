@@ -1,0 +1,30 @@
+/* !En este css va todo lo relacionado con las cards */
+.titulo-chico {
+    font-family: "Share Tech Mono", monospace;
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+}
+ a{
+  text-decoration: none;
+}
+.card-body{
+  background-color: #d7b7e7ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & p{
+    width: 90%;
+    margin-bottom: 0;
+    padding: 0;
+    width: 90%;
+  }
+}
+.card-text{
+    font-weight: 700;
+    width: 50px;
+}
+.card img:hover{
+  transform: scale(1.01);
+
+}
