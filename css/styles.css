@@ -24,7 +24,7 @@ body{
 .globo2 {
   bottom: -50px;
   right: -50px;
-  background: radial-gradient(circle, rgba(0, 255, 200, 0.4), transparent 70%);
+  background: radial-gradient(circle, rgba(0, 255, 200, 0.781), transparent 70%);
 }
 
 .titulo{
@@ -131,3 +131,8 @@ p,
    rgba(171, 142, 221, 0.681) 58%,
     rgba(252, 184, 129, 0.991) 100%);
 }
+
+.salto:hover{
+  transform:translateY(-2px);
+ transition: transform 0.2s ease-in;
+} 
