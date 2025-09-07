@@ -1,5 +1,38 @@
 main{
     position: relative;
-    min-height: 100vh;
  }
- 
+ .globo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(196, 58, 101, 0.671), transparent 70%);
+  filter: blur(80px);
+  z-index: -1; /* para que quede detrás del contenido */
+}
+
+/*! Se usa un número negativo porque así se empuja el elemento hacia afuera de su contenedor o de la pantalla. */
+.globo1 {
+  top: -50px;
+  left: -50px;
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.4), transparent 70%);
+}
+
+/* .globo2 {
+  bottom: -0px;
+  right: -0px;
+  background: radial-gradient(circle, rgba(0, 255, 200, 0.781), transparent 70%);
+} */
+
+.titulo{
+  font-family: "Share Tech Mono", monospace;
+  font-size: 70px;
+  font-weight: 500;
+  color: black;
+}
+
+p,
+.form-control {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: small;
+}
