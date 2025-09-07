@@ -1,15 +1,15 @@
 
 body{
    position: relative; /* contenedor relativo para los blobs */
-  min-height: 100vh;
+   min-height: 100vh;
   overflow: hidden; /* evita scroll por el blur */
 }
 .globo {
   position: absolute;
-  width: 300px;
+  width: 200px;
   height: 300px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 100, 150, 0.6), transparent 70%);
+  background: radial-gradient(circle, rgba(196, 58, 101, 0.671), transparent 70%);
   filter: blur(80px);
   z-index: -1; /* para que quede detrás del contenido */
 }
@@ -22,8 +22,8 @@ body{
 }
 
 .globo2 {
-  bottom: -50px;
-  right: -50px;
+  bottom: -80px;
+  right: -0px;
   background: radial-gradient(circle, rgba(0, 255, 200, 0.781), transparent 70%);
 }
 
