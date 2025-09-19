@@ -68,36 +68,34 @@ p,
 .iconos {
   background: linear-gradient(
     90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(255, 232, 103, 0.692) 100%,
-    rgba(212, 157, 70, 0.911) 67%
+    rgb(125, 34, 230) 0%,
+    rgba(203, 102, 250, 0.692) 58%,
+    rgba(220, 190, 228, 0.991) 100%
   );
 }
 
 .fotos {
   background: linear-gradient(
     90deg,
-    rgba(58, 180, 150, 1) 0%,
-    rgba(29, 253, 89,  0.692) 58%,
-    rgba(212, 158, 70,  0.911) 100%
+    rgb(34, 119, 230) 0%,
+    rgba(102, 215, 250, 0.692) 58%,
+    rgba(190, 228, 226, 0.991) 100%
   );
 }
 
 .color {
-  background: linear-gradient(
-    90deg,
-    rgba(230, 47, 34, 1) 0%,
-    rgba(250, 243, 102,  0.692) 58%,
-    rgba(235, 186, 117, 0.991) 100%
-  );
+  background: linear-gradient(90deg,rgb(230, 67, 67) 0%,
+   rgba(235, 159, 131, 0.682) 58%,
+    rgba(252, 188, 86, 0.991) 100%);
+  
 }
 
 .video {
   background: linear-gradient(
     90deg,
     rgba(34, 230, 60, 1) 0%,
-    rgba(102, 250, 178,  0.692) 58%,
-    rgba(226, 242, 153, 0.991) 100%
+    rgba(102, 250, 193, 0.692) 58%,
+    rgba(143, 240, 202, 0.692) 100%
   );
 }
 
@@ -112,24 +110,24 @@ p,
 .compos{
   background: linear-gradient(
     90deg
-    ,rgba(191, 230, 18, 1) 0%,
-     rgba(230, 207, 80, 0.681) 58%, 
-     rgba(240, 178, 78, 0.991) 100%);
+    ,rgb(36, 230, 18) 0%,
+     rgba(182, 243, 69, 0.681) 58%, 
+     rgba(215, 243, 149, 0.991) 100%);
 }
 .api{
-  background: linear-gradient(90deg,rgb(230, 67, 67) 0%,
-   rgba(235, 159, 131, 0.682) 58%,
-    rgba(252, 188, 86, 0.991) 100%);
+  background: linear-gradient(90deg,rgb(230, 67, 148) 0%,
+   rgba(235, 131, 230, 0.682) 58%,
+   rgba(235, 131, 180, 0.682) 100%);  
 }
-.librerias{
-  background: linear-gradient(90deg,rgba(191, 230, 18, 1) 0%,
-   rgba(159, 103, 255, 0.681) 58%,
-    rgba(212, 158, 70, 0.991) 100%);
+.fuentes  {
+  background: linear-gradient(90deg,rgb(166, 207, 15) 0%,
+   rgba(222, 255, 103, 0.681) 58%,
+   rgba(222, 255, 103, 0.681) 100%);
 }
-.colores{
+.animaciones{
    background: linear-gradient(90deg,rgb(230, 156, 18) 0%,
-   rgba(171, 142, 221, 0.681) 58%,
-    rgba(252, 184, 129, 0.991) 100%);
+   rgba(221, 213, 142, 0.681) 58%,
+    rgba(221, 213, 142, 0.681) 100%);
 }
 
 .salto:hover{
